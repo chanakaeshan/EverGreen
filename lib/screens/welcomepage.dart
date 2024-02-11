@@ -26,7 +26,7 @@ class WelcomePage extends StatelessWidget {
                     textAlign: TextAlign.center,
                     text: const TextSpan(children: [
                       TextSpan(
-                          text: "Welcome\n",
+                          text: "Welcome EverGreen\n",
                           style: TextStyle(
                             fontSize: 45.0,
                             fontWeight: FontWeight.w600,

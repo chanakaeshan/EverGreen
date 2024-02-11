@@ -65,7 +65,7 @@ class _SignUpState extends State<SignUp> {
                         },
                         decoration: InputDecoration(
                           label: const Text('Full Name'),
-                          hintText: 'Enter Full Name',
+                          hintText: 'Enter Your Full Name',
                           hintStyle: const TextStyle(
                             color: Colors.black26,
                           ),
@@ -96,7 +96,7 @@ class _SignUpState extends State<SignUp> {
                         },
                         decoration: InputDecoration(
                           label: const Text('Email'),
-                          hintText: 'Enter Email',
+                          hintText: 'Enter Your Email',
                           hintStyle: const TextStyle(
                             color: Colors.black26,
                           ),
@@ -120,7 +120,7 @@ class _SignUpState extends State<SignUp> {
                       // password
                       TextFormField(
                         obscureText: true,
-                        obscuringCharacter: '*',
+                        obscuringCharacter: '•',
                         validator: (value) {
                           if (value == null || value.isEmpty) {
                             return 'Please enter Password';
@@ -129,7 +129,7 @@ class _SignUpState extends State<SignUp> {
                         },
                         decoration: InputDecoration(
                           label: const Text('Password'),
-                          hintText: 'Enter Password',
+                          hintText: 'Enter Your Password',
                           hintStyle: const TextStyle(
                             color: Colors.black26,
                           ),
