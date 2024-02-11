@@ -59,7 +59,7 @@ class WelcomePage extends StatelessWidget {
                 ),
                 Expanded(
                   child: WelcomeButton(
-                    buttonText: 'Sing Up',
+                    buttonText: 'Sign Up',
                     onTap: const SignUp(),
                     color: Colors.white,
                     textColor: ligntColorScheme.primary,
