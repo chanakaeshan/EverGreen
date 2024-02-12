@@ -169,7 +169,7 @@ class _SignInState extends State<SignIn> {
                               );
                             }
                         },
-                        child: const Text("Sign Up"),
+                        child: const Text("Sign In"),
                      ),
                    ),
                     const SizedBox(
@@ -190,7 +190,7 @@ class _SignInState extends State<SignIn> {
                               horizontal: 10,
                             ),
                             child: Text(
-                              'Sign up with',
+                              'Sign In with',
                               style: TextStyle(
                                 color: Colors.black45,
                               ),
